@@ -14,11 +14,11 @@ app.get('/banu1', function (req, res) {
 });
 
 app.get('/banu2', function (req, res) {
-  res.send('Banu one is served here');
+  res.send('Banu two is served here');
 });
 
 app.get('/banu3', function (req, res) {
-  res.send('Banu one is served here');
+  res.send('Banu three is served here');
 });
 
 app.get('/ui/style.css', function (req, res) {
